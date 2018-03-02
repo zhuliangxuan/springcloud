@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: helloconsumer
+server:
+  port: 9090
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

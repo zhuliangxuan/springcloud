@@ -6,6 +6,8 @@ eureka:
       defaultZone: http://peer2:1112/eureka/
   instance:
     hostname: peer1
+  server:
+    enable-self-preservation: false
 spring:
   application:
     name: erueka-server
